@@ -59,9 +59,10 @@ footer
 
 .entete
 {
-    margin-left:50px;
+    margin-left:5%;
     display: inline-block;
     vertical-align: top;
+    width:70%;
 }
 
 .mail
@@ -79,7 +80,6 @@ section
     width:30%;
     padding: 10px;
     margin: 1%;
-    overflow: auto;
     display: inline-block;
     vertical-align: top;
 }
