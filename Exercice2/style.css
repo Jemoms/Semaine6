@@ -17,11 +17,11 @@ header {
     margin-bottom: 3px;
 }
 
-.title {
+.user {
     padding: 20px;
 }
 
-.img-header {
+.user_picture {
     width: 60px;
     float:left;
 }
@@ -48,31 +48,35 @@ header {
 /* Flêches */
 
 .arrow {
-    display: inline-block;
+    display:inline-block;
     float: right;
     margin-right: 15px;
     margin-top: 24px;
     width: 15px;
     height: 15px;
-    background: url(../img/arrow01.png);
+}
+
+.warrow
+{
+    background: url(img/arrowb.png);
     background-size: 15px 15px;
     background-repeat: no-repeat;
 }
 
 .thin {
-    background: url(../img/arrow02.png);
+    background: url(img/arrowbthin.png);
     background-size: 15px 15px;
     background-repeat: no-repeat;
 }
 
-.inverse {
-    background: url(../img/arrow01grey.png);
+.barrow {
+    background: url(img/arrowinv.png);
     background-size: 15px 15px;
     background-repeat: no-repeat;
 }
 
 .link:hover .arrow {
-    background: url(../img/arrow01grey.png);
+    background: url(img/arrow01grey.png);
     background-size: 15px 15px;
     background-repeat: no-repeat;
 }
@@ -123,7 +127,7 @@ p {
     margin-left: 0;
 }
 
-.col-md-4, .col-md-6, .col-md-12 {
+.col-md-4, .col-xs-12, .col-xs-6 {
     padding-right: 0;
     padding-left: 0;
 }
