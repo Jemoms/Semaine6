@@ -143,15 +143,6 @@ p {
     margin:3px;
 }
 
-.little-spec {
-    position: relative;
-    height: 247px;
-    display: flex;
-    align-items: center;
-    padding-bottom: 60px;
-    margin:3px;
-}
-
 .big {
     position: relative;
     height: 500px;
@@ -182,7 +173,7 @@ p {
 /* Responsive */
 
 @media (max-width: 991px) {
-    .col-md-4, .col-md-6, .col-md-12, header {
+    .col-md-4, .col-xs-6, .col-xs-12, header {
         margin-bottom: 3px;
     }
 
