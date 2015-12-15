@@ -36,16 +36,6 @@ footer
     background-attachment:fixed;
 }
 
-/*.container
-{
-    width:100%;
-    max-width:960px;
-    padding:10px;
-    margin:15px;
-    display:inline-block
-}*/
-
-
 .photo
 {
 	width:20%;
@@ -75,14 +65,11 @@ p
     text-align: justify;
 }
 
-/*section
+ul
 {
-    width:30%;
-    padding: 10px;
-    margin: 1%;
-    display: inline-block;
-    vertical-align: top;
-}*/
+    list-style-type:none;
+    text-align:center;
+}
 
 h3, h1
 {
